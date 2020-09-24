@@ -12,7 +12,7 @@ Name
 ====
 
 The name "bobzurunkl" is a phonetic spelling of the phrase "Bob's your uncle".
-Within the context of this library, the phrase which has a dual meaning:
+Within the context of this library, the phrase has a dual meaning:
 
   1)  From <https://en.wikipedia.org/wiki/Bob's_your_uncle>, 2020-09-24:
 
@@ -23,7 +23,7 @@ Within the context of this library, the phrase which has a dual meaning:
       of the French expression "et voilà!" or the American "easy as pie" or
       "piece of cake".
 
-      This sentiment is at the heart of what we intend to produce.
+      This sentiment is at the heart of what I intend to produce.
 
   2)  I viewed a presentation by Robert C. Martin - aka "Uncle Bob" - on
       "Clean Code". In a sincere effort to follow his wisdom, the code in this
@@ -44,9 +44,8 @@ functions which operate on them. The objects are as follows.
   1)  BuuIterator
 
       This object scans sequential data in a string, file, or input stream
-      in units of either 8, 16 or 32 bits (1, 2 or 4 bytes). It maintains an
-      accessible current position and provides access to the unit value at
-      that position.
+      in units of either 8, 16 or 32 bits (1, 2 or 4 bytes). It maintains a
+      current position and provides access to the unit value at that position.
 
   2)  BuuStack
 
@@ -66,5 +65,5 @@ functions which operate on them. The objects are as follows.
       substrings. Each leaf - a node with a key which is the ending of a
       defined string - has a non-null pointer to some user-defined data. While
       a hash table keyed with strings would serve the same purpose, I feel
-      that a trie is appropriate for looking up data which are sequences.
+      that a trie is appropriate for looking up sequential data.
 
