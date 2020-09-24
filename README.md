@@ -4,14 +4,14 @@ Extensible parser library
 
 
 Purpose
-=======
+-------
 
 The purpose of this library is to provide a minimal toolkit for building
 parsers.
 
 
-Name
-====
+Concept
+-------
 
 The name "bobzurunkl" is a phonetic spelling of the phrase "Bob's your uncle".
 Within the context of this library, the phrase has a dual meaning:
@@ -38,7 +38,7 @@ Within the context of this library, the phrase has a dual meaning:
 
 
 Contents
-========
+--------
 
 The bobzurunkl library - written in C - consists of opaque objects and
 functions which operate on them. The objects are as follows.
